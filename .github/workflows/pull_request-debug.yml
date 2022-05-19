@@ -6,6 +6,6 @@ jobs:
   output-debug:
     runs-on: ubuntu-18.04
     steps:
-      - uses: bsterckx/github-action-explore-debug@master
+      - uses: bsterckx/github-action-explore-debug@main
         with:
           jq_selector: ".pull_request"
